@@ -1,8 +1,19 @@
 fun main() {
-    val name = "Kotlin"
-    println("Hello, $name!")
-
-    for (i in 1..5) {
-        println("i = $i")
-    }
+//    evenOrOdd()
 }
+
+// Check if a number is even or odd
+private fun evenOrOdd() {
+    print("Input: ")
+    val num = readln().toInt()
+    if (num % 2 == 0)
+        print("Number is even") else
+        print("Number is odd")
+}
+
+// Determine if a given year is a leap year
+
+private fun leapYear() {
+
+}
+
